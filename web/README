@@ -1,0 +1,26 @@
+John as an advertiser would like to know how much it costs to advertise, so that
+he can make its investment decision. John would like to be able to filter by 
+aspect ratio (16: 9 ...) and Normal or Cheap Prices.
+
+Requirement: Create a screen that contains an aspect ratio filter, another filter for
+cheap and normal price and a button to calculate the price.
+
+Details:
+
+1. Create an API that will show the different types of aspect-ratios. Take in 
+mind that in our BD we have this data in pixels, so  you must convert the data 
+from pixel to aspect-ratio
+
+
+2. Based on advertiser filter, calculate the price;
+
+
+Formats options: 16: 9, 9:16
+
+Possible results:
+
+16: 9 & & Cheap: $ 7.00
+16: 9 & & Normal: $ 14.00
+
+9:16 && Cheap: $ 18.00
+9:16 & & Normal: $ 22.00
